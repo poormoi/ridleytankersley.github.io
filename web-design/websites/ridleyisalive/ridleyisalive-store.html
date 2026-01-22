@@ -1,0 +1,130 @@
+<!DOCTYPE html lang="en">
+<!-- CODED BY RIDLEY -->
+<html lang="rm">
+  <head>
+    <title>Ridley's Store</title>
+    <link rel="icon" href="ridleyisalive-images/Ridley-icon.png" sizes="32x32" type="image/png"></link>
+    <style>
+    /* CODED BY RIDLEY */
+    html {
+
+    }
+    body {
+      margin: 10;
+      background-color: #d34;
+    }
+    div.header {
+      width: 23vw;
+      border-style:dotted;
+      border-width:2px;
+      border-color:#ff0;
+      margin: auto;
+      text-align: center;
+    }
+    div.nav {
+      width: 30vw;
+      text-align: center;
+      margin: auto;
+      padding: 20px;
+    }
+    div.item {
+      position: relative;
+      left: 50%;
+      float: left;
+      background: #dda;
+      width: 25vw;
+      border-style: outset;
+      margin: 0.5vw;
+    }
+    div.store {
+      float: right;
+      position: relative;
+      left: -50%; /* or right 50% */
+      text-align: left;
+    }
+    a.nav {
+      color:#840d35;
+    }
+    a.nav:hover {
+      color:#fff;
+    }
+    a.nav:visited {
+      color:#840d35;
+    }
+    a.nav:visited:hover {
+      color:#fff;
+    }
+    img.item-image {
+      border-style: solid;
+      border-width: 1px;
+      margin: auto;
+      margin-top: 1vw;
+      max-width: 90%;
+    }
+    h1 {
+      font-family: Helvetica;
+      font-style: italic;
+      font-size: 36pt;
+      margin: 4px;
+      color: #a14;
+    }
+    h2 {
+      font-style: italic;
+      font-size: 18pt;
+      margin: 6pt;
+    }
+    h3 {
+      font-family: Helvetica;
+      font-size: 12pt;
+      margin: 6pt;
+    }
+    #paypal {
+      margin-left: 2pt;
+      margin-bottom: 6pt;
+    }
+    #title {
+      font-size: 4vw;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1 id="title">RIDLEY'S STORE</h1>
+    </div>
+    <div class="nav">
+      <a class="nav">Home</a>
+      <a class="nav">Images</a>
+      <a class="nav">Projects</a>
+      <a class="nav">CV</a>
+      <a class="nav">Contact</a>
+      <a class="nav">Instagram</a>
+      <a class="nav">Youtube</a>
+    </div>
+    <div class=store>
+    <center>
+      <div class=item>
+        <img title="2016 records publicity image" class="item-image" src="ridleyisalive-images/store/2016-records-zine-store.jpg" style="align:middle">
+        <h2>Ridley's Favorite Records of 2016 Zine</h2>
+        <h3>PRZ-001</h3>
+        <div id="paypal">
+          <form action="" id="paypal" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+	          <input type="hidden" name="hosted_button_id" value="G4DQEM5BDUFG8">
+	          <table>
+              <tr><td><select name="os0">
+                <option value="1 zine">1 zine $2.49 USD</option>
+                <option value="2 zines">2 zines $4.49 USD</option>
+                <option value="3 zines">3 zines $5.49 USD</option>
+                <option value="5 zines">5 zines $8.49 USD</option>
+              </select></td></tr>
+            </table>
+            <input type="hidden" name="currency_code" value="USD">
+            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>
+        </div>
+      </div>
+    </center>
+    </div>
+  </body>
+</html>
